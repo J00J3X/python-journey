@@ -1,0 +1,17 @@
+# 1 - Factorial of a number
+def factorial(num):
+    if num == 1:
+        return 1
+    else:
+        return (num * factorial(num - 1))
+number = int(input("Write a number to fatorate:\n"))
+print(f"The factorial of {number} is {factorial(number)}")
+
+# 2 - Total sum of a number
+def total_sum(num):
+    if num == 1:
+        return 1
+    else:
+            return (num + total_sum(num - 1))
+number = int(input("Write a number to sum:\n"))
+print(f"The sum of {number} is {total_sum(number)}")
