@@ -1,0 +1,17 @@
+exercise 1: Url extraction
+
+Statement: Write a function that receives a text and extract all
+ the URLs present. Consider that a URL can start with "http://"
+or "https://" and include a domain followed by a suffix (for example: ".com", ".org").
+
+Exercise 2: Password validation
+
+Statement: Create a function that validates a password. One Password is considered valid 
+if it has at least 8 characters, at least one uppercase letter, one lowercase letter
+and a number. Return true if the password is valid and false otherwise.
+
+Exercise 3: Words counter
+
+Statement: Implement a function that count the amount of words in a text.
+Consider words as sequence of alphabetical character( or alphanumerical)
+that are separated by empty spaces or pontuation
